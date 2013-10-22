@@ -21,6 +21,18 @@
 		5FCB404F1812309100684559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB40311812309100684559 /* UIKit.framework */; };
 		5FCB40571812309100684559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB40551812309100684559 /* InfoPlist.strings */; };
 		5FCB40591812309100684559 /* iZorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB40581812309100684559 /* iZorkTests.m */; };
+		5FCB406B181232B700684559 /* gmgCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB406A181232B700684559 /* gmgCharacter.m */; };
+		5FCB40751812356400684559 /* gmgWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB40741812356400684559 /* gmgWeapon.m */; };
+		5FCB40781812358F00684559 /* gmgArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB40771812358F00684559 /* gmgArmor.m */; };
+		5FCB40811812363500684559 /* gmgFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB40801812363500684559 /* gmgFactory.m */; };
+		5FCB408A1812369500684559 /* gmgFoe1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB40891812369500684559 /* gmgFoe1.m */; };
+		5FCB408D181236A100684559 /* gmgFoe2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB408C181236A100684559 /* gmgFoe2.m */; };
+		5FCB4090181236B500684559 /* gmgFoeBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB408F181236B500684559 /* gmgFoeBoss.m */; };
+		5FCB409D1812468800684559 /* east_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB40991812468800684559 /* east_blue.png */; };
+		5FCB409E1812468800684559 /* north_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB409A1812468800684559 /* north_blue.png */; };
+		5FCB409F1812468800684559 /* south_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB409B1812468800684559 /* south_blue.png */; };
+		5FCB40A01812468800684559 /* west_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB409C1812468800684559 /* west_blue.png */; };
+		5FD6F002181318AD007836E0 /* gmgTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD6F001181318AD007836E0 /* gmgTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,26 @@
 		5FCB40541812309100684559 /* iZorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iZorkTests-Info.plist"; sourceTree = "<group>"; };
 		5FCB40561812309100684559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FCB40581812309100684559 /* iZorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iZorkTests.m; sourceTree = "<group>"; };
+		5FCB4069181232B700684559 /* gmgCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgCharacter.h; sourceTree = "<group>"; };
+		5FCB406A181232B700684559 /* gmgCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgCharacter.m; sourceTree = "<group>"; };
+		5FCB40731812356400684559 /* gmgWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgWeapon.h; sourceTree = "<group>"; };
+		5FCB40741812356400684559 /* gmgWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgWeapon.m; sourceTree = "<group>"; };
+		5FCB40761812358F00684559 /* gmgArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgArmor.h; sourceTree = "<group>"; };
+		5FCB40771812358F00684559 /* gmgArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgArmor.m; sourceTree = "<group>"; };
+		5FCB407F1812363500684559 /* gmgFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgFactory.h; sourceTree = "<group>"; };
+		5FCB40801812363500684559 /* gmgFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgFactory.m; sourceTree = "<group>"; };
+		5FCB40881812369500684559 /* gmgFoe1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgFoe1.h; sourceTree = "<group>"; };
+		5FCB40891812369500684559 /* gmgFoe1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgFoe1.m; sourceTree = "<group>"; };
+		5FCB408B181236A100684559 /* gmgFoe2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgFoe2.h; sourceTree = "<group>"; };
+		5FCB408C181236A100684559 /* gmgFoe2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgFoe2.m; sourceTree = "<group>"; };
+		5FCB408E181236B500684559 /* gmgFoeBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgFoeBoss.h; sourceTree = "<group>"; };
+		5FCB408F181236B500684559 /* gmgFoeBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgFoeBoss.m; sourceTree = "<group>"; };
+		5FCB40991812468800684559 /* east_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = east_blue.png; sourceTree = "<group>"; };
+		5FCB409A1812468800684559 /* north_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = north_blue.png; sourceTree = "<group>"; };
+		5FCB409B1812468800684559 /* south_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = south_blue.png; sourceTree = "<group>"; };
+		5FCB409C1812468800684559 /* west_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_blue.png; sourceTree = "<group>"; };
+		5FD6F000181318AD007836E0 /* gmgTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgTile.h; sourceTree = "<group>"; };
+		5FD6F001181318AD007836E0 /* gmgTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgTile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +144,7 @@
 		5FCB40331812309100684559 /* iZork */ = {
 			isa = PBXGroup;
 			children = (
+				5FCB406E1812344200684559 /* Model */,
 				5FCB403C1812309100684559 /* gmgAppDelegate.h */,
 				5FCB403D1812309100684559 /* gmgAppDelegate.m */,
 				5FCB403F1812309100684559 /* Main.storyboard */,
@@ -126,6 +159,8 @@
 		5FCB40341812309100684559 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FCB40651812321400684559 /* texts */,
+				5FCB4063181231E600684559 /* images */,
 				5FCB40351812309100684559 /* iZork-Info.plist */,
 				5FCB40361812309100684559 /* InfoPlist.strings */,
 				5FCB40391812309100684559 /* main.m */,
@@ -150,6 +185,55 @@
 				5FCB40551812309100684559 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FCB4063181231E600684559 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5FCB40991812468800684559 /* east_blue.png */,
+				5FCB409A1812468800684559 /* north_blue.png */,
+				5FCB409B1812468800684559 /* south_blue.png */,
+				5FCB409C1812468800684559 /* west_blue.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5FCB40651812321400684559 /* texts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = texts;
+			sourceTree = "<group>";
+		};
+		5FCB406E1812344200684559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FCB406F1812345000684559 /* Factory */,
+				5FD6F000181318AD007836E0 /* gmgTile.h */,
+				5FD6F001181318AD007836E0 /* gmgTile.m */,
+				5FCB4069181232B700684559 /* gmgCharacter.h */,
+				5FCB406A181232B700684559 /* gmgCharacter.m */,
+				5FCB40731812356400684559 /* gmgWeapon.h */,
+				5FCB40741812356400684559 /* gmgWeapon.m */,
+				5FCB40761812358F00684559 /* gmgArmor.h */,
+				5FCB40771812358F00684559 /* gmgArmor.m */,
+				5FCB40881812369500684559 /* gmgFoe1.h */,
+				5FCB40891812369500684559 /* gmgFoe1.m */,
+				5FCB408B181236A100684559 /* gmgFoe2.h */,
+				5FCB408C181236A100684559 /* gmgFoe2.m */,
+				5FCB408E181236B500684559 /* gmgFoeBoss.h */,
+				5FCB408F181236B500684559 /* gmgFoeBoss.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5FCB406F1812345000684559 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5FCB407F1812363500684559 /* gmgFactory.h */,
+				5FCB40801812363500684559 /* gmgFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCB409E1812468800684559 /* north_blue.png in Resources */,
+				5FCB409F1812468800684559 /* south_blue.png in Resources */,
+				5FCB409D1812468800684559 /* east_blue.png in Resources */,
+				5FCB40A01812468800684559 /* west_blue.png in Resources */,
 				5FCB40461812309100684559 /* Images.xcassets in Resources */,
 				5FCB40381812309100684559 /* InfoPlist.strings in Resources */,
 				5FCB40411812309100684559 /* Main.storyboard in Resources */,
@@ -251,8 +339,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCB403E1812309100684559 /* gmgAppDelegate.m in Sources */,
+				5FCB406B181232B700684559 /* gmgCharacter.m in Sources */,
+				5FCB408D181236A100684559 /* gmgFoe2.m in Sources */,
+				5FCB40811812363500684559 /* gmgFactory.m in Sources */,
 				5FCB40441812309100684559 /* gmgViewController.m in Sources */,
 				5FCB403A1812309100684559 /* main.m in Sources */,
+				5FCB40751812356400684559 /* gmgWeapon.m in Sources */,
+				5FCB408A1812369500684559 /* gmgFoe1.m in Sources */,
+				5FD6F002181318AD007836E0 /* gmgTile.m in Sources */,
+				5FCB40781812358F00684559 /* gmgArmor.m in Sources */,
+				5FCB4090181236B500684559 /* gmgFoeBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +557,7 @@
 				5FCB405E1812309100684559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FCB405F1812309100684559 /* Build configuration list for PBXNativeTarget "iZorkTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +566,7 @@
 				5FCB40611812309100684559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

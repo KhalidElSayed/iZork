@@ -7,6 +7,8 @@
 //
 
 #import "gmgViewController.h"
+#import "gmgFactory.h"
+#import "gmgTile.h"
 
 @interface gmgViewController ()
 
@@ -17,13 +19,81 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    gmgFactory *factory = [[gmgFactory alloc] init];
+    self.tiles = [factory tiles];
+    self.currentPoint = CGPointMake(0,0); //starting point
+    
+    [self updateTile];
+    [self updateDirectionButtons];
+
+	
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+}
+
+- (IBAction)OptionAButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)optionBButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)OptionCButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)northButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)westButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)eastButtonAction:(UIButton *)sender {
+}
+
+- (IBAction)southButtonAction:(UIButton *)sender {
+}
+
+/*********************************************************************
+ * Helper Methods                                                    *
+ *********************************************************************/
+
+- (void)updateTile
+{
+    gmgTile *tileModel = [[self.tiles objectAtIndex:(self.currentPoint.x)]
+                          objectAtIndex:(self.currentPoint.y)];
+    
+    self.storyLabel.text = tileModel.storyText;
+}
+
+- (void)updateDirectionButtons
+{
+    self.westButton.hidden = [self tileExistsAtPoint:(CGPointMake(self.currentPoint.x - 1, self.currentPoint.y))];
+
+    self.eastButton.hidden = [self tileExistsAtPoint:(CGPointMake(self.currentPoint.x + 1, self.currentPoint.y))];
+
+    self.northButton.hidden = [self tileExistsAtPoint:(CGPointMake(self.currentPoint.x, self.currentPoint.y + 1))];
+
+    self.southButton.hidden = [self tileExistsAtPoint:(CGPointMake(self.currentPoint.x, self.currentPoint.y - 1))];
+
+}
+
+- (bool)tileExistsAtPoint:(CGPoint)point
+{
+    if (point.x >= 0
+        && point.y >= 0
+        && point.x < [self.tiles count]
+        && point.y < [[self.tiles objectAtIndex:(point.x)] count])
+    {
+        return false;
+    }
+    else{
+        return true;
+    }
+    
 }
 
 @end
