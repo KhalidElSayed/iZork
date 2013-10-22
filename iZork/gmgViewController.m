@@ -45,16 +45,42 @@
 - (IBAction)OptionCButtonAction:(UIButton *)sender {
 }
 
-- (IBAction)northButtonAction:(UIButton *)sender {
+- (IBAction)northButtonAction:(UIButton *)sender
+{
+    self.currentPoint = CGPointMake(
+                                    self.currentPoint.x,
+                                    self.currentPoint.y + 1);
+    [self updateDirectionButtons];
+    [self updateTile];
 }
 
-- (IBAction)westButtonAction:(UIButton *)sender {
+- (IBAction)westButtonAction:(UIButton *)sender
+{
+    self.currentPoint = CGPointMake(
+                                    self.currentPoint.x - 1,
+                                    self.currentPoint.y);
+    [self updateDirectionButtons];
+    [self updateTile];
+    
 }
 
-- (IBAction)eastButtonAction:(UIButton *)sender {
+- (IBAction)eastButtonAction:(UIButton *)sender
+{
+    self.currentPoint = CGPointMake(
+                                    self.currentPoint.x + 1,
+                                    self.currentPoint.y);
+    [self updateDirectionButtons];
+    [self updateTile];
+    
 }
 
-- (IBAction)southButtonAction:(UIButton *)sender {
+- (IBAction)southButtonAction:(UIButton *)sender
+{
+    self.currentPoint = CGPointMake(
+                                    self.currentPoint.x,
+                                    self.currentPoint.y - 1);
+    [self updateDirectionButtons];
+    [self updateTile];
 }
 
 /*********************************************************************
