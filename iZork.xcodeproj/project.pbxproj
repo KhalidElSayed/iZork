@@ -33,6 +33,8 @@
 		5FCB409F1812468800684559 /* south_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB409B1812468800684559 /* south_blue.png */; };
 		5FCB40A01812468800684559 /* west_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB409C1812468800684559 /* west_blue.png */; };
 		5FD6F002181318AD007836E0 /* gmgTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD6F001181318AD007836E0 /* gmgTile.m */; };
+		5FD6F0041816F676007836E0 /* chapters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FD6F0031816F676007836E0 /* chapters.txt */; };
+		5FD6F0071816F6E3007836E0 /* gmgStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD6F0061816F6E3007836E0 /* gmgStory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,9 @@
 		5FCB409C1812468800684559 /* west_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_blue.png; sourceTree = "<group>"; };
 		5FD6F000181318AD007836E0 /* gmgTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgTile.h; sourceTree = "<group>"; };
 		5FD6F001181318AD007836E0 /* gmgTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgTile.m; sourceTree = "<group>"; };
+		5FD6F0031816F676007836E0 /* chapters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chapters.txt; sourceTree = "<group>"; };
+		5FD6F0051816F6E3007836E0 /* gmgStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgStory.h; sourceTree = "<group>"; };
+		5FD6F0061816F6E3007836E0 /* gmgStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgStory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +164,7 @@
 		5FCB40341812309100684559 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5FCB40651812321400684559 /* texts */,
+				5FD6F0031816F676007836E0 /* chapters.txt */,
 				5FCB4063181231E600684559 /* images */,
 				5FCB40351812309100684559 /* iZork-Info.plist */,
 				5FCB40361812309100684559 /* InfoPlist.strings */,
@@ -198,19 +203,14 @@
 			name = images;
 			sourceTree = "<group>";
 		};
-		5FCB40651812321400684559 /* texts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = texts;
-			sourceTree = "<group>";
-		};
 		5FCB406E1812344200684559 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				5FCB406F1812345000684559 /* Factory */,
 				5FD6F000181318AD007836E0 /* gmgTile.h */,
 				5FD6F001181318AD007836E0 /* gmgTile.m */,
+				5FD6F0051816F6E3007836E0 /* gmgStory.h */,
+				5FD6F0061816F6E3007836E0 /* gmgStory.m */,
 				5FCB4069181232B700684559 /* gmgCharacter.h */,
 				5FCB406A181232B700684559 /* gmgCharacter.m */,
 				5FCB40731812356400684559 /* gmgWeapon.h */,
@@ -317,6 +317,7 @@
 				5FCB409F1812468800684559 /* south_blue.png in Resources */,
 				5FCB409D1812468800684559 /* east_blue.png in Resources */,
 				5FCB40A01812468800684559 /* west_blue.png in Resources */,
+				5FD6F0041816F676007836E0 /* chapters.txt in Resources */,
 				5FCB40461812309100684559 /* Images.xcassets in Resources */,
 				5FCB40381812309100684559 /* InfoPlist.strings in Resources */,
 				5FCB40411812309100684559 /* Main.storyboard in Resources */,
@@ -347,6 +348,7 @@
 				5FCB40751812356400684559 /* gmgWeapon.m in Sources */,
 				5FCB408A1812369500684559 /* gmgFoe1.m in Sources */,
 				5FD6F002181318AD007836E0 /* gmgTile.m in Sources */,
+				5FD6F0071816F6E3007836E0 /* gmgStory.m in Sources */,
 				5FCB40781812358F00684559 /* gmgArmor.m in Sources */,
 				5FCB4090181236B500684559 /* gmgFoeBoss.m in Sources */,
 			);

@@ -8,6 +8,7 @@
 
 #import "gmgFactory.h"
 #import "gmgTile.h"
+#import "gmgStory.h"
 
 @implementation gmgFactory
 
@@ -17,6 +18,10 @@
     int noOfCols = 5;
     int noOfTiles = noOfRows * noOfCols;
     
+    //load the story book, in preparation for building the tiles
+    gmgStory *storyBook = [[gmgStory alloc] init];
+    [storyBook loadStoryBook];
+
     //this array will contain a list of all the columns we need
     NSMutableArray *colList = [[NSMutableArray alloc] initWithCapacity:noOfCols];
     
@@ -38,7 +43,7 @@
         gmgTile *tempTile = [[gmgTile alloc] init];
         
         //build out the properties for the object
-        tempTile.storyText = [NSString stringWithFormat:@"Story Board #%d", i];
+        tempTile.storyText = [NSString stringWithFormat:@"%@",     [storyBook getChapter:(i)]];
         
         //add the tile object to the column object which it belongs
         //tile number divide by numberOfColumns gives you the column

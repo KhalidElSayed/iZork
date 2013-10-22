@@ -26,7 +26,7 @@
     
     [self updateTile];
     [self updateDirectionButtons];
-
+    //[self spawnCharacter];
 	
 }
 
