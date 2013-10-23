@@ -93,6 +93,7 @@
                           objectAtIndex:(self.currentPoint.y)];
     
     self.storyLabel.text = tileModel.storyText;
+    self.backgroundImageView.image = tileModel.backgroundImage;
 }
 
 - (void)updateDirectionButtons

@@ -42,8 +42,12 @@
         //create a temporary tile object
         gmgTile *tempTile = [[gmgTile alloc] init];
         
+        NSString *backgroundImageFile = [NSString stringWithFormat:@"tile%i.jpg",i];
+        //NSLog(@"%@",backgroundImageFile);
+        
         //build out the properties for the object
-        tempTile.storyText = [NSString stringWithFormat:@"%@",     [storyBook getChapter:(i)]];
+        tempTile.storyText = [NSString stringWithFormat:@"%@",[storyBook getChapter:(i)]];
+        tempTile.backgroundImage = [UIImage imageNamed:(backgroundImageFile)];
         
         //add the tile object to the column object which it belongs
         //tile number divide by numberOfColumns gives you the column
