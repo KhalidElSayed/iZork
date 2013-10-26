@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC23ECD181B65DD00129C14 /* artifacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FC23ECC181B65DD00129C14 /* artifacts.plist */; };
+		5FC23ED0181B70E700129C14 /* gmgSupply.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC23ECF181B70E700129C14 /* gmgSupply.m */; };
 		5FCB402E1812309100684559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB402D1812309100684559 /* Foundation.framework */; };
 		5FCB40301812309100684559 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB402F1812309100684559 /* CoreGraphics.framework */; };
 		5FCB40321812309100684559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB40311812309100684559 /* UIKit.framework */; };
@@ -58,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FC23ECC181B65DD00129C14 /* artifacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artifacts.plist; sourceTree = "<group>"; };
+		5FC23ECE181B70E700129C14 /* gmgSupply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmgSupply.h; sourceTree = "<group>"; };
+		5FC23ECF181B70E700129C14 /* gmgSupply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gmgSupply.m; sourceTree = "<group>"; };
 		5FCB402A1812309100684559 /* iZork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCB402D1812309100684559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FCB402F1812309100684559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -185,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				5FD6F0031816F676007836E0 /* chapters.txt */,
+				5FC23ECC181B65DD00129C14 /* artifacts.plist */,
 				5FCB4063181231E600684559 /* images */,
 				5FCB40351812309100684559 /* iZork-Info.plist */,
 				5FCB40361812309100684559 /* InfoPlist.strings */,
@@ -247,6 +253,8 @@
 				5FCB40741812356400684559 /* gmgWeapon.m */,
 				5FCB40761812358F00684559 /* gmgArmor.h */,
 				5FCB40771812358F00684559 /* gmgArmor.m */,
+				5FC23ECE181B70E700129C14 /* gmgSupply.h */,
+				5FC23ECF181B70E700129C14 /* gmgSupply.m */,
 				5FCB40881812369500684559 /* gmgFoe1.h */,
 				5FCB40891812369500684559 /* gmgFoe1.m */,
 				5FCB408B181236A100684559 /* gmgFoe2.h */,
@@ -360,6 +368,7 @@
 				5FD6F01018174400007836E0 /* face_pirate.png in Resources */,
 				5FD6F00E18174400007836E0 /* face_elf.png in Resources */,
 				5FCB40411812309100684559 /* Main.storyboard in Resources */,
+				5FC23ECD181B65DD00129C14 /* artifacts.plist in Resources */,
 				5FD6F01318174B2C007836E0 /* tile0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC23ED0181B70E700129C14 /* gmgSupply.m in Sources */,
 				5FCB403E1812309100684559 /* gmgAppDelegate.m in Sources */,
 				5FCB406B181232B700684559 /* gmgCharacter.m in Sources */,
 				5FCB408D181236A100684559 /* gmgFoe2.m in Sources */,

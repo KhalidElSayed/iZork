@@ -11,6 +11,7 @@
 @interface gmgWeapon : NSObject
 
 @property (strong, nonatomic) NSString *weaponName;
-@property (nonatomic) int *weaponStrength;
+@property (nonatomic) int *weaponCondition;
+@property (nonatomic) int *weaponAttack;
 
 @end

@@ -18,6 +18,16 @@
     int noOfCols = 5;
     int noOfTiles = noOfRows * noOfCols;
     
+    NSDictionary *artifacts = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"artifacts" ofType:@"plist"]];
+    
+    NSDictionary *weapons = [artifacts valueForKeyPath:(@"weapons")];
+    NSDictionary *armors = [artifacts valueForKeyPath:(@"armors")];
+    NSDictionary *supplies = [artifacts valueForKeyPath:(@"supplies")];
+
+    //NSLog(@"%@",weapons);
+    //NSLog(@"%@",armors);
+    //NSLog(@"%@",supplies);
+    
     //load the story book, in preparation for building the tiles
     gmgStory *storyBook = [[gmgStory alloc] init];
     [storyBook loadStoryBook];

@@ -11,6 +11,7 @@
 @interface gmgArmor : NSObject
 
 @property (strong, nonatomic) NSString *armorName;
-@property (nonatomic) int *armorStrength;
+@property (nonatomic) int *armorCondition;
+@property (nonatomic) int *armorDefense;
 
 @end
