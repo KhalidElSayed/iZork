@@ -1,25 +1,25 @@
-1. Welcome to iZork, adventurer. You are standing at the southwest edge of a forest. Your destiny awaits you within, but dangers lurk everywhere. To help you on your journey, the gods have gifted you with armor and a sword. You may choose to take these items. Or, you may leave them behind. If you take them, use them wisely. However, if you leave them, the gods may take offense and punish you for your ingratitude... [HINT: HEAD NORTH FIRST]
+1. Welcome to iZork, adventurer. You are standing at the southwest edge of a forest. Your destiny awaits you within, but dangers lurk everywhere. To help you on your journey, the gods have gifted you with a fresh suit of clothes and a trustworthy sword. You may choose to take these items. Or, you may leave them behind. If you take them, use them wisely. However, if you leave them, the gods may take offense and punish you for your ingratitude... [HINT: HEAD NORTH FIRST]
 2. After walking a bit, the forest thickens. All manner of strange fauna rustle, grunt, and screech, just outside your eyeshot. But you press on, and the effort of hacking through the brush makes you hungry. Fortunately, you spy a stash of lovely looking nuts and berries nestled in the hollow of a tree stump. You may choose to eat them, take them as supplies for later, or leave them behind. Choose wisely.
 3. Suddenly, the noises stop. You freeze in a small clearing, and listen. Something isn't right. HOWL! A wolf bounds out of the trees and lands on all fours right in front of you! What do you choose? You can attack the wolf, you can try to defend yourself from attack, or you can run away (and risk damage in retreat).
 4. The favor of the gods was with you in your last encounter! Having survived the threat, you stop to rest in a meadow at the west edge of the forest.   You bandage your wounds, and as you take stock of your supplies, you notice a scrap of paper on the ground. It reads: "Our fortunes lie to the north, but our destiny... to the east."
-Chapter 5 - the northern fortunes side quest.
-Chapter 6 - the consequences of avoiding the hints.
+5. The air turns icy and a stiff wind bites your face. The trees here are barren and gray. The thickets are too dense to continue north. The only way forward is to the east. But before you continue on, you find a wooden box. On it, a packing list reads: "1. Tanned Hide Armor; 2. 1 Bundle Slow-Burn Firewood" and "Property Of Kingdom Defense Department. Unauthorized Use Prohibited By Regal Proclamation. Violators Will Be Prosecuted." You could leave the supplies, but the winter crawling up your back suggests otherwise...
+Chapter 6 - the consequences of avoiding the hints - the swamp.
 Chapter 7 - going east, after the berries. Or, going north to avoid more consequences of disobedience to the hints.
 Chapter 8 - going east after the wolf, OR, continuing north after defying the hints.
 Chapter 9 - <<<the eastern *destiny* adventure.>>>
-Chapter 10 - northern fortunes side quest II
-Chapter 11 - more consequences, southern forest
+Chapter 10 - northern fortunes side quest II - The brook.
+Chapter 11 - more consequences, southern forest - the hillbillies
 Chapter 12 - east after the berries, II
 Chapter 13 - continuing east after the wolf, II
 Chapter 14 - eastern *destiny*, part II (FOE 1)
-Chapter 15 - Northern fortunes side-quest III
-Chapter 16 - he just won't stop going east!
+Chapter 15 - Northern fortunes side-quest III - The ghost.
+Chapter 16 - he just won't stop going east! - SWAMP GHOUL
 Chapter 17 - east after the berries, III
 Chapter 18 - East after the wolf, III
 Chapter 19 - eastern destiny, part III (FOE 2)
-Chapter 20 - Northern Fortunes Side Quest IV
-Chapter 21 - the tragic end of the eastbound idiot.
+Chapter 20 - Northern Fortunes Side Quest IV - The mountain shack.
+Chapter 21 - the tragic end of the eastbound idiot - Marie Leveau
 Chapter 22 - east after the berries, IV
 Chapter 23 - East after the wolf, IV
 Chapter 24 - eastern destiny, part IV (BOSS)
-Chapter 25 - CONCLUSION
+Chapter 25 - THE ICE GIANT

@@ -4,6 +4,15 @@
 <dict>
 	<key>weapons</key>
 	<dict>
+		<key>0</key>
+		<dict>
+			<key>Name</key>
+			<string>Sword</string>
+			<key>Condition</key>
+			<integer>10</integer>
+			<key>Attack</key>
+			<integer>6</integer>
+		</dict>
 		<key>dagger</key>
 		<dict>
 			<key>Name</key>
@@ -31,15 +40,6 @@
 			<key>Attack</key>
 			<integer>5</integer>
 		</dict>
-		<key>sword</key>
-		<dict>
-			<key>Name</key>
-			<string>Sword</string>
-			<key>Condition</key>
-			<integer>10</integer>
-			<key>Attack</key>
-			<integer>6</integer>
-		</dict>
 		<key>halberd</key>
 		<dict>
 			<key>Name</key>
@@ -61,7 +61,7 @@
 	</dict>
 	<key>armors</key>
 	<dict>
-		<key>clothes</key>
+		<key>0</key>
 		<dict>
 			<key>Name</key>
 			<string>Clothes</string>
@@ -70,10 +70,10 @@
 			<key>Defense</key>
 			<integer>1</integer>
 		</dict>
-		<key>leather</key>
+		<key>4</key>
 		<dict>
 			<key>Name</key>
-			<string>Leather</string>
+			<string>Leather Armor</string>
 			<key>Condition</key>
 			<integer>10</integer>
 			<key>Defense</key>
@@ -100,26 +100,26 @@
 	</dict>
 	<key>supplies</key>
 	<dict>
-		<key>food</key>
+		<key>1</key>
 		<dict>
 			<key>Name</key>
 			<string>Fruits &amp; Nuts</string>
 			<key>Health</key>
 			<integer>3</integer>
 		</dict>
-		<key>fuel</key>
-		<dict>
-			<key>Name</key>
-			<string>Firewood</string>
-			<key>Health</key>
-			<integer>2</integer>
-		</dict>
-		<key>medicine</key>
+		<key>3</key>
 		<dict>
 			<key>Name</key>
 			<string>Ointment &amp; Bandages</string>
 			<key>Health</key>
 			<integer>5</integer>
+		</dict>
+		<key>4</key>
+		<dict>
+			<key>Name</key>
+			<string>Firewood</string>
+			<key>Health</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>
