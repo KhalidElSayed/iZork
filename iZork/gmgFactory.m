@@ -23,15 +23,15 @@
     NSDictionary *weapons = [artifacts valueForKeyPath:(@"weapons")];
     NSDictionary *armors = [artifacts valueForKeyPath:(@"armors")];
     NSDictionary *supplies = [artifacts valueForKeyPath:(@"supplies")];
-
-    //NSLog(@"%@",weapons);
-    //NSLog(@"%@",armors);
-    //NSLog(@"%@",supplies);
+    
+    NSLog(@"%@",weapons);
+    NSLog(@"%@",armors);
+    NSLog(@"%@",supplies);
     
     //load the story book, in preparation for building the tiles
     gmgStory *storyBook = [[gmgStory alloc] init];
     [storyBook loadStoryBook];
-
+    
     //this array will contain a list of all the columns we need
     NSMutableArray *colList = [[NSMutableArray alloc] initWithCapacity:noOfCols];
     
@@ -42,7 +42,7 @@
         //temporary column array, so we can add it to the mutable
         //array of all columns
         NSMutableArray *column = [[NSMutableArray alloc] initWithCapacity:noOfRows];
-
+        
         //now we just add the column to our column list
         [colList addObject:(column) ];
     }
@@ -77,12 +77,12 @@
  * (Note: ZERO-based counts)
  *
  * colList[
- *      col[0]:[ 
- *          tile[0], 
- *          tile[1], 
- *          tile[2], 
- *          tile[3], 
- *          tile[4] 
+ *      col[0]:[
+ *          tile[0],
+ *          tile[1],
+ *          tile[2],
+ *          tile[3],
+ *          tile[4]
  *          ],
  *      col[1]:[
  *          tile[0],
