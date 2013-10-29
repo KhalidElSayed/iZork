@@ -6,20 +6,20 @@
 6. You wander into the balmy woods, and the smell of rotting wood rises all around you. Your footing is very soft. Suddenly, you find yourself ankle deep in muck. Trudging through the swamp is no fun.
 7. A heavy downpour drenches your clothes, and weighs down your sack. Your bones begin to clatter. You feel a chill coming on, and you sniffle to keep your nose from running. The weather has made you ill. 2 health points will be deducted.
 8 . You pause in a dry, quiet place, against a tree. You catch your breath. Over a small rise, something moves. A tiny woman with dragonfly wings is riding on the back of a friendly looking dog. She tells you this is her home, and offers you a sweet smelling drink and some nuts.
-Chapter 9 - <<<the eastern *destiny* adventure.>>>
+ 9. You are attacked by a swarm of bees. There's no use attempting an attack, just take your lumps and run!
 10. Your canteen is empty. You are very thirsty, and the crystal clear waters of the brook ahead of you beckon seductively.
 11. Skeeter and his brother skooter don't much care for strangers on their land! You must show them who's boss, or high-tail it, squeeling like a piggie as you run.
-Chapter 12 - You try to get some needed rest, by leaning against a tree. As you begin to nod off, a noise from the brush startles you. You awake to find your sack torn open, and some of your supplies are tumbling out of the mouth of an extremely large, and somewhat apathetic looking animal.
-Chapter 13 - continuing east after the wolf, II
-Chapter 14 - eastern *destiny*, part II (FOE 1)
-15 - Northern fortunes side-quest III - The ghost.
+12. You try to get some needed rest, by leaning against a tree. As you begin to nod off, a noise from the brush startles you. You awake to find your sack torn open, and some of your supplies are tumbling out of the mouth of an extremely large, and somewhat apathetic looking animal.
+13. A tall thin man appears before you. His movements are so quiet and quick, you nearly mistake him for a spectre. He sees the insignia on your clothing, and realizes you are protected by the gods. He greets you with a silent nod, and offers you the gift of a bow and quiver of arrows.
+14. You are greeted by a knight, stumbling and gasping. He grunts, "Go no further! He cannot be defeated!", and collapses on the ground. You kneel down to him, and before you can speak, he groans again, "here... take my armor. I know you must proceed. The gods have tasked you. Take my armor. It is the least I can do..." his body slumps and he gasps his last breath.
+15 - You hear a voice in your head, "COMMME NOOO FURTHERRR". You look up. A shimmering black visage menaces from a distance in the trees. If you proceed, you must vanquish the spectre, in order to retain your life force.
 16 - The woods have grown dark as ink. Strange shrieks and howls swirl around your head, but you cannot tell how near or far they are. A sliver of moonlight pierces the trees, and its light turns the ghoul in front of you into a glowing beacon of doom.
 17. At long last, a quiet place. You settle yourself on the ground, under a sprawling tree, and watch the setting sunlight glisten off the rippling surface of serene lake that stretches out before you. You nod off for a time. It feels good to rest.
-Chapter 18 - East after the wolf, III
-Chapter 19 - eastern destiny, part III (FOE 2)
-Chapter 20 - Northern Fortunes Side Quest IV - The mountain shack.
+18. As you peak a hill, a large beastly man lets out a deafening roar. You are being attacked by a wandering orc! What shall you do?
+19. A wizard stands before you, and speaks. He says, 'You are in grave danger if you do not choose your path through this quest wisely.' He lifts his arms, and out of a glowing ball at his chest, the head of a dragon appears. 'THIS!', he shouts, 'IS WHAT AWAITS YOU!'
+20 . These northern climbs are difficult to travel, on account of the weather. What a welcome sight, this travelers shack! Rest here, and replenish your supplies.
 21. Heavy, combersome despair arches your back. Your eyes blur with exhaustion. You can feel your life force slipping away. On the rise ahead of you, a dark thin woman, with eyes that glow like the moon. She reaches out to you. You reach back. She is not reaching. She is taking. Marie Leveau now owns your soul...
-22. The rocky hills have been a difficult climb since leaving the lake. You wish you'd stayed. Out of a dark enclave in the rocks, a serpent the size of an oil pipeline rears up before you, and lets out a menacing hiss, loud enough to be a shriek. 
-Chapter 23 - East after the wolf, IV
-Chapter 24 - eastern destiny, part IV (BOSS)
-Chapter 25 - THE ICE GIANT
+22. The rocky hills have been a difficult climb since leaving the lake. You wish you'd stayed. Out of a dark enclave in the rocks, a serpent the size of an oil pipeline rears up before you, and lets out a menacing hiss, loud enough to be a shriek.
+Chapter 23 - THE SILVER DRAGON - Friend
+24 - "IT IS YOU, AT LAST. THE ONE WHO WAS SENT TO ME BY MY MASTERS. THE ONE WHO DEIGNS TO SLAY ME IN THEIR STEAD! WELL, ADVENTURER! SHOW THIS DRAGON WHAT YOUR BRAVADO IS CAPABLE OF!"
+Chapter 25 - THE ICE GIANT - Foe
